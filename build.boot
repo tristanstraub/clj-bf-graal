@@ -2,8 +2,7 @@
                           [com.oracle.truffle/truffle-api "1.0.0-rc1"]
                           [org.graalvm/graal-sdk "1.0.0-rc1"]
                           [com.oracle.truffle/truffle-dsl-processor "1.0.0-rc1"]]
-          :source-paths #{"src"}
-          :resource-paths #{"resources"})
+          :source-paths #{"src"})
 
 (deftask annotate
   []
